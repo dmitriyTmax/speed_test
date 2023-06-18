@@ -19,5 +19,10 @@ function animateSpeedometerValue(startValue, endValue, duration) {
   window.requestAnimationFrame(updateSpeedometerLabel);
 }
 
-// Function call with parameters
-animateSpeedometerValue(50.00, 0.00, 5000);
+// Обробник події натискання на кнопку "start-btn"
+document.querySelector('.start-btn').addEventListener('click', () => {
+  // Затримка в 10 секунд перед виконанням функції
+  setTimeout(() => {
+    animateSpeedometerValue(50.00, 0.00, 7000);
+  }, 10000);
+});
