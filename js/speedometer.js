@@ -17,6 +17,8 @@ function loop() {
   tick = valBetween(Math.ceil((value / 160) * 49), 1, 49);
   tickDiff = Math.abs(tick - tickStore);
   tickDiffValue = Math.abs(value - valueStore) / tickDiff;
+  console.log("value: " + value);
+  console.log("tick: " + tick);
   console.log("tickDiff: " + tickDiffValue + " * " + tickDiff + " = " + (tickDiffValue * tickDiff));
 
   let counter = 0;
@@ -65,8 +67,13 @@ function loop() {
 // Click event listener for the start button
 document.querySelector('.start-btn').addEventListener('click', () => {
   if (!isRunning) {
-    isRunning = true;
+    // Reset the variables
+    value = 0;
+    valueStore = 0;
+    tick = 1;
+    tickStore = 1;
     startTime = Date.now();
+    isRunning = true;
     loop();
 
     // Stop the script after 10 seconds
