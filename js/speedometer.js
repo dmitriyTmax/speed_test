@@ -34,7 +34,7 @@ function loop() {
         if (i === tick) {
           document.querySelector('#speedometer-label').textContent = value.toFixed(2);
         }
-      }, 50 * counter);
+      }, 35 * counter);
       counter++;
     }
   } else if (value < valueStore) {
@@ -46,7 +46,7 @@ function loop() {
         if (i === tick) {
           document.querySelector('#speedometer-label').textContent = value.toFixed(2);
         }
-      }, 50 * counter);
+      }, 35 * counter);
       counter++;
     }
   }

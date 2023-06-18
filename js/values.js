@@ -32,5 +32,5 @@ startBtnElement.addEventListener('click', function() {
     });
 
     startBtnElement.disabled = false;
-  }, 20000);
+  }, 17000);
 });
