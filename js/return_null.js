@@ -23,6 +23,6 @@ function animateSpeedometerValue(startValue, endValue, duration) {
 document.querySelector('.start-btn').addEventListener('click', () => {
   // Затримка в 10 секунд перед виконанням функції
   setTimeout(() => {
-    animateSpeedometerValue(50.00, 0.00, 7000);
-  }, 12000);
-});
+    animateSpeedometerValue(0.00, 0.00, 1000);
+  }, 18000);
+}); 
