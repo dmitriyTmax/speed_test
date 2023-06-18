@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var startBtn = document.querySelector(".start-btn");
+  var startBtn = document.querySelector("#start-btn");
   if (startBtn) {
     startBtn.addEventListener("click", function() {
       setTimeout(function() {

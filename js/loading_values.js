@@ -29,7 +29,7 @@
   }
 
   // Find the first element with the class .start-btn
-  const startBtn = document.querySelector('.start-btn');
+  const startBtn = document.querySelector('#start-btn');
 
   // Launch the script when .start-btn is clicked
   startBtn.onclick = function() {

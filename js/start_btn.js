@@ -1,6 +1,6 @@
 // Get reference to the span elements
-const startBtn = document.querySelector('.start-btn');
-const measuringBtn = document.querySelector('.measuring-btn');
+const startBtn = document.querySelector('#span-start-btn');
+const measuringBtn = document.querySelector('#span-measuring-btn');
 
 // Function to add the hide class to start-btn span and remove it from measuring-btn span
 function hideStartBtn() {

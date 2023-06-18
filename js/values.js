@@ -1,4 +1,4 @@
-var startBtnElement = document.querySelector('.start-btn');
+var startBtnElement = document.querySelector('#start-btn');
 
 startBtnElement.addEventListener('click', function() {
   startBtnElement.disabled = true;

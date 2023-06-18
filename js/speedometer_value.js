@@ -25,7 +25,7 @@ function revertSpeedometerValues() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  var startBtn = document.querySelector('.start-btn');
+  var startBtn = document.querySelector('#start-btn');
   var revertTimeout;
 
   startBtn.addEventListener('click', function() {

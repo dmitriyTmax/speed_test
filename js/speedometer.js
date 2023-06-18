@@ -65,7 +65,7 @@ function loop() {
 }
 
 // Click event listener for the start button
-document.querySelector('.start-btn').addEventListener('click', () => {
+document.querySelector('#start-btn').addEventListener('click', () => {
   if (!isRunning) {
     // Reset the variables
     value = 0;
