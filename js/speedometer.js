@@ -13,7 +13,7 @@ function valBetween(value, min, max) {
 }
 
 function loop() {
-  value = Math.ceil(Math.random() * 160);
+  value = Math.random() * 160;
   tick = valBetween(Math.ceil((value / 160) * 49), 1, 49);
   tickDiff = Math.abs(tick - tickStore);
   tickDiffValue = Math.abs(value - valueStore) / tickDiff;
