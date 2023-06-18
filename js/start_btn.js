@@ -1,4 +1,5 @@
 // Get reference to the span elements
+const launchBtn = document.querySelector('#start-btn');
 const startBtn = document.querySelector('#span-start-btn');
 const measuringBtn = document.querySelector('#span-measuring-btn');
 
@@ -15,7 +16,7 @@ function revertChanges() {
 }
 
 // Add event listener to start-btn span
-startBtn.addEventListener('click', () => {
+launchBtn.addEventListener('click', () => {
   // Call the hideStartBtn function when start-btn span is pressed
   hideStartBtn();
   
