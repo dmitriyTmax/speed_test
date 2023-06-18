@@ -470,6 +470,23 @@ a {
   opacity: 0.6;
 }
 
+.card__number {
+  font-size: 48px;
+  line-height: 58px;
+  color: #333333;
+}
+
+.card__list {
+  width: 24px;
+  height: 31px;
+  background-image: url("../images/list.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .download-btn {
   font-size: 21px;
   line-height: 25px;
@@ -697,7 +714,7 @@ a {
   padding: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 110px;
+  margin-bottom: 51px;
 }
 
 .speedometer__btn:hover {

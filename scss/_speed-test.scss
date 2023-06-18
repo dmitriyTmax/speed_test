@@ -123,6 +123,20 @@
         color: #333333;
         opacity: 0.6;
     }
+    &__number {
+        font-size: 48px;
+        line-height: 58px;
+        color: #333333;
+    }
+    &__list {
+        width: 24px;
+        height: 31px;
+        background-image: url("../images/list.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 .download-btn {

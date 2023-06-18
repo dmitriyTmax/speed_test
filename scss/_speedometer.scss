@@ -4,19 +4,17 @@
     // background-color: red;
 }
 
-
 .speedometer-ticks {
     position: absolute;
     top: 5px;
     left: 38px;
 }
 
-
 .hide {
     display: none;
 }
 
-.speedometer{
+.speedometer {
     position: relative;
     &__value {
         margin-top: -205px;
@@ -39,7 +37,7 @@
         color: #2fbcd3;
         padding: 5px;
         transition: all 0.3s ease-in-out;
-        margin-bottom: 110px;
+        margin-bottom: 51px;
         &:hover {
             color: #2e7f98;
         }
