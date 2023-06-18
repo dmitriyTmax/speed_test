@@ -24,5 +24,5 @@ document.querySelector('.start-btn').addEventListener('click', () => {
   // Затримка в 10 секунд перед виконанням функції
   setTimeout(() => {
     animateSpeedometerValue(50.00, 0.00, 7000);
-  }, 10000);
+  }, 12000);
 });
