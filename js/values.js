@@ -28,6 +28,7 @@ startBtnElement.addEventListener('click', function() {
     cardNumberElements.forEach(function(cardNumberElement) {
       var randomNumber = Math.floor(Math.random() * 101);
       cardNumberElement.textContent = randomNumber;
+      cardNumberElement.classList.remove('hide'); // Remove the "hide" class from card__number elements
     });
 
     startBtnElement.disabled = false;
