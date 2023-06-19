@@ -24,6 +24,7 @@ function setFillAttribute() {
   for (var i = 0; i < numberElements.length; i++) {
     var numberElement = numberElements[i];
     originalFillValues[i] = numberElement.getAttribute('fill'); // Store the original fill value
+		numberElement.style.transition = "fill 0s ease-in-out";
     numberElement.setAttribute('fill', '#eeeeef');
   }
 }
@@ -32,6 +33,7 @@ function setFillAttribute() {
 function restoreFillAttribute() {
   for (var i = 0; i < numberElements.length; i++) {
     var numberElement = numberElements[i];
+		numberElement.style.transition = "fill 0.5s ease-in-out";
     numberElement.setAttribute('fill', originalFillValues[i]); // Restore the original fill value
   }
 }
@@ -51,5 +53,5 @@ startButton.addEventListener('click', function() {
   setTimeout(function() {
     clearInterval(intervalId);
     restoreFillAttribute(); // Restore the original fill values
-  }, 20000);
+  }, 19450);
 });
