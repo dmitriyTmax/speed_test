@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         svgTicks.forEach(function(tick) {
           tick.setAttribute("stroke", "#2E7F98");
         });
-      }, 19000); // 20 секунд (20 000 мілісекунд)
+      }, 20000); // 20 секунд (20 000 мілісекунд)
     });
   }
 });
