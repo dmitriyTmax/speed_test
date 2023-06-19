@@ -672,9 +672,14 @@ a {
   background-color: #fff;
 }
 
+/*Code was change*/
 .color {
   stroke: #2E7F98 !important;
 }
+.color-fill {
+  fill: #2E7F98 !important;
+}
+/*-----------------*/
 
 .speedometer-ticks {
   position: absolute;
