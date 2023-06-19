@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     startBtn.addEventListener("click", function() {
       var svgTicks = document.querySelectorAll(".svg-tick");
       svgTicks.forEach(function(tick) {
-        // tick.style.transition = "stroke 0.5s ease-in-out";
+        tick.style.transition = "stroke 0s ease-in-out";
         tick.setAttribute("stroke", "#eeeeef");
       });
 
